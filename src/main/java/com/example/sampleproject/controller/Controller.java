@@ -18,7 +18,7 @@ public class Controller {
     @GetMapping("/allEmp")
 
     public List<Employee> employeeList(){
-        log.info("Getting details created");
+        log.info("details created");
         return service.getEmployeeList();
 
     }
